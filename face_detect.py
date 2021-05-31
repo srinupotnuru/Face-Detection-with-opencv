@@ -1,7 +1,7 @@
 import cv2
 face_detect=cv2.CascadeClassifier('classifier.xml')
 
-img=cv2.imread('karthik.jpeg')
+img=cv2.imread('friends.jpeg')
 
 gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
